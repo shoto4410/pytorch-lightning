@@ -48,6 +48,7 @@ class MNISTDataModule(pl.LightningDataModule):
     
 def main():
     print(1)
+    print(100)
     
 if __name__ == "__main_":
     main()
