@@ -44,3 +44,10 @@ class MNISTDataModule(pl.LightningDataModule):
         return torch.utils.data.DataLoader(
             self.test_dataset, batch_size=self.batch_size, num_workers=8
         )
+    
+    
+def main():
+    print(1)
+    
+if __name__ == "__main_":
+    main()
